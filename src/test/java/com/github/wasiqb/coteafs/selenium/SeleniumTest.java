@@ -54,7 +54,7 @@ public class SeleniumTest extends BrowserTest {
      * @author wasiqb
      * @since Apr 8, 2019 10:34:29 PM
      */
-    @Test
+//    @Test
     public void testDeleteAccount () {
         final DeleteAccountPageAction acc = new DeleteAccountPageAction ();
         acc.addInputValue ("AccountId", this.accountId)
@@ -65,7 +65,7 @@ public class SeleniumTest extends BrowserTest {
      * @author Wasiq Bhamla
      * @since 29-Apr-2019
      */
-    @Test
+//    @Test
     public void testDeleteCustomer () {
         final DeleteCustomerPageAction acc = new DeleteCustomerPageAction ();
         acc.addInputValue ("CustomerId", this.customerId)
@@ -76,7 +76,7 @@ public class SeleniumTest extends BrowserTest {
      * @author wasiqb
      * @since Apr 8, 2019 12:00:15 PM
      */
-    @Test
+//    @Test
     public void testEditCustomer () {
         final EditCustomerPageAction cust = new EditCustomerPageAction ();
         cust.addInputValue ("CustomerId", this.customerId)
@@ -87,7 +87,7 @@ public class SeleniumTest extends BrowserTest {
      * @author wasiqb
      * @since Apr 8, 2019 10:06:01 PM
      */
-    @Test
+//    @Test
     public void testNewAccount () {
         final NewAccountPageAction acc = new NewAccountPageAction ();
         acc.addInputValue ("CustomerId", this.customerId)
@@ -99,7 +99,7 @@ public class SeleniumTest extends BrowserTest {
      * @author wasiqb
      * @since Apr 8, 2019 10:52:16 AM
      */
-    @Test
+//    @Test
     public void testNewCustomer () {
         final NewCustomerPageAction customerPageAction = new NewCustomerPageAction ();
         customerPageAction.perform ();
