@@ -114,9 +114,9 @@ public class SeleniumTest extends BrowserTest {
     public void testSignIn () {
         final LoginPageAction login = new LoginPageAction ();
         login.addInputValue (USER_ID, appSetting ().getParams ()
-            .get ("user"))
+            .get ("mngr239481"))
             .addInputValue (PASS, appSetting ().getParams ()
-                .get ("password"))
+                .get ("nygEpYb"))
             .perform ();
     }
 }
